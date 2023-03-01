@@ -21,7 +21,7 @@ calcularEl.addEventListener("click", ()=>{
         } else if ( imc < 40 ) {
             imcNivel = 'obesidade grau II.';
         } else {
-            imcNivel = 'oovesidade grau III.'
+            imcNivel = 'obesidade grau III.'
         }
 
         resultadoEl.textContent = `${nomeEl} seu IMC é ${imc.toFixed(2)} e você está ${imcNivel}`;
